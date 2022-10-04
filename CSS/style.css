@@ -1,0 +1,130 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #FAF7F2;
+}
+.navbar{
+    background-color: #032D6B;
+    display: flex;
+}
+.menu-1{
+    display: flex;
+}
+.menu-2{
+    display: flex;
+    margin-left: 500px;
+}
+ul{
+    list-style: none;
+}
+li{
+    margin: 0px 15px 0px 15px;
+    color: white;
+    /* font-size: 13px; */
+    font-weight: 500;
+}
+.navbar>ul>li{
+    font-size: 13px;
+}
+.cnLogo{
+    margin-left: 40px;
+}
+.menu-item-1{
+    background-color: white;
+    padding: 4px 12px 4px 12px;
+    border-radius: 25px;
+    color: brown;
+}
+.menu-item-2{
+    background-color: white;
+    padding: 4px 12px 4px 12px;
+    border-radius: 25px;
+    color: brown;
+}
+.sidebar{
+    background-color: #0A2541;
+    height: 800px;
+    width: 18%;
+    margin-top: 0px;
+}
+.sidebar>ul>li{
+    font-size: 18px;
+    padding-top: 15px;
+}
+.sidebar>ul{
+    padding-top: 30px;
+}
+.side-item-1{
+    background-color: rgba(240, 248, 255, 0.162);
+    padding: 12px 0px 12px 25px;
+    margin-left: -55px;
+    margin-right: -15px;
+    color: red;
+}
+.side-item-2{
+    /* background-color: rgba(240, 248, 255, 0.162); */
+    padding: 12px 0px 12px 25px;
+    margin-left: -55px;
+    margin-right: -15px;
+    margin-top: -10px;
+    /* color: red; */
+}
+.body-content{
+    display: flex;
+}
+.main-content>h2{
+    color: #78809A;
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.course-top{
+    display: flex;
+}
+.course-top>h2{
+    font-weight: 500;
+    font-size: 23px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.course-date{
+    display: flex;
+    margin-left: 80px;
+    margin-top: -25px;
+}
+.course-date>h4{
+    font-weight: 300;
+    padding-right: 40px;
+    font-size: 15px;
+}
+.course-date>h4>span{
+    font-weight: 500;
+}
+.course{
+    background-color: white;
+    margin-left: 60px;
+    padding: 20px 100px 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.386);
+    margin-top: 30px;
+}
+.course>h4{
+    margin-left: 80px;
+    margin-top: -10px;
+    margin-bottom: 25px;
+    font-weight: 500;
+    font-size: 15px;
+}
+.course>h4>span{
+    color: #496EC5;
+}
+.course>a{
+    margin-left: 80px;
+    background-color: #FB813E;
+    text-decoration: none;
+    padding: 8px 25px 8px 25px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 400;
+}
