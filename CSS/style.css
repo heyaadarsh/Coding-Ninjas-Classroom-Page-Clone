@@ -6,13 +6,14 @@ body{
 .navbar{
     background-color: #032D6B;
     display: flex;
+    width: 100%;
 }
 .menu-1{
     display: flex;
 }
 .menu-2{
     display: flex;
-    margin-left: 500px;
+    margin-left: 450px;
 }
 ul{
     list-style: none;
@@ -41,9 +42,18 @@ li{
     border-radius: 25px;
     color: brown;
 }
+.fa-2x{
+    font-size: 20px;
+}
+/* .right-menu-icons{
+    display: flex;
+    margin-left: -40px;
+    font-size: 40px;
+} */
 .sidebar{
     background-color: #0A2541;
-    height: 800px;
+    float: left;
+    height: 100vh;
     width: 18%;
     margin-top: 0px;
 }
@@ -60,6 +70,12 @@ li{
     margin-left: -55px;
     margin-right: -15px;
     color: red;
+}
+.side-item-1>i{
+    margin-right: 10px;
+}
+.side-item-2>i{
+    margin-right: 10px;
 }
 .side-item-2{
     /* background-color: rgba(240, 248, 255, 0.162); */
